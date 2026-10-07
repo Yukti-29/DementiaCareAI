@@ -1,0 +1,10 @@
+{
+  "name": "Remix MemoryCare Sanjeevani",
+  "description": "A tranquil, dignified dementia and memory care companion designed to support daily routine, cherish family bonds, and offer calm serenity.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

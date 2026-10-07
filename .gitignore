@@ -1,0 +1,38 @@
+# Dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Python
+python-backend/__pycache__/
+python-backend/**/__pycache__/
+python-backend/.venv/
+python-backend/venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+!frontend/.env.example
+
+# Runtime data / local databases
+*.sqlite
+*.sqlite3
+*.db
+python-backend/instance/
+python-backend/runtime/
+python-backend/tmp/
+python-backend/temp/
+python-backend/uploads/
+python-backend/media/
+python-backend/generated_media/
+python-backend/memory/storage/*/
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
